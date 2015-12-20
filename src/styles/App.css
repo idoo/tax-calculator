@@ -1,0 +1,44 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.title {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  background: #666;
+}
+
+.wrap {
+  text-align: center;
+}
+
+.label {
+  display: block;
+}
+
+.text {
+  display: inline-block;
+  width: 60vw;
+  height: 200px;
+  color: #2C2C2C;
+}
+
+.btn {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
